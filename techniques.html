@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href=https://imgs.search.brave.com/l6CYfIPz68evEKtTBVwYZJ43do3KQrBnYKLBjI8iDig/rs:fit:391:382:1/g:ce/aHR0cHM6Ly93d3cu/dHVjc29uYXouZ292/L2ZpbGVzL3dhdGVy/L2ltZy9SRUJBVEVf/SUNPTl9SYWlud2F0/ZXJIYXJ2ZXN0LnBu/Zw>
+    <title>Techniques</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-color: #000839;
+  --primary-shades: #00020b;
+  --para-color: #80849c;
+  --helper-color: #1264fa;
+  --white: #fff;
+  --bg-color: #e6e6eb;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--primary-color);
+}
+
+.para {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--para-color);
+}
+
+.header {
+  height: 9.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5.4rem;
+  position: relative;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  font-size: 1.5rem;
+}
+
+.navbar-list .navbar-btn {
+  padding: 1.2rem 2.4rem;
+  background-color: var(--white);
+  border: 1px solid var(--helper-color);
+  color: var(--helper-color);
+  border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-list .navbar-link:hover,
+.navbar-list .navbar-link:active {
+  color: var(--helper-color);
+}
+
+.navbar-btn:hover,
+.navbar-btn:active {
+  background-color: var(--helper-color);
+  color: var(--white);
+}
+
+.navbar-link {
+  text-transform: uppercase;
+}
+
+.mobile-nav-icon {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+.mobile-navbar-btn {
+  display: none;
+}
+
+.mobile-nav-icon[name="close"] {
+  display: none;
+}
+main{
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 2em;
+}
+.hero-image {
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.hero-image img {
+  height: 90%;
+  width: 50em;
+  box-shadow: 0 0 20rem 0 rgba(0, 0, 0, 0.1);
+}
+.primary-heading {
+  font-size: 6rem;
+  font-weight: 700;
+}
+.secondary-heading{
+    font-size:2rem;
+    font-weight:700;
+}
+
+    </style>
+  </head>
+  <body>
+    <header class="header">
+    <a href="credits.html"  class="logo">Food - The Ultimate Connector</a>
+    <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="home.html" class="navbar-link"> Home </a></li>
+          <li><a href="About_rwh.html" class="navbar-link"> About </a></li>
+          <li><a href="techniques.html" class="navbar-link"> Techniques </a></li>
+          <li><a href="data.html" class="navbar-link"> Data </a></li>
+          <li><a href="credits.html" class="btn navbar-btn"> Credits </a></li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close" class="mobile-nav-icon"></ion-icon>
+      </div>
+      </header>
+      <main>
+        <section class="section section-hero">
+            <div class="container grid grid-two-column">
+              <div class="hero-data">
+                <h1 class="primary-heading"><br>Techniques of Management of Food Resources</h1><br>
+                <p class="para">The management of food resource can be done in various methods depending on a few factors.
+                     A few common methods include the following:</p>
+            </div><br><br>
+            <div class="hero-data">
+                <h3 class="secondary-heading">1. Inventory management</h3><br>
+                <div class="hero-image">
+                    <img
+                    src="inventory.jpg"
+                    class="image"
+                  />
+                  </div>
+                <p class="para"> This involves keeping track of food stocks and monitoring levels regularly to ensure that there are 
+                    sufficient supplies to meet demand. This technique can help prevent waste and reduce the risk of running out of
+                    food.</p>
+            </div><br><br><br>
+            <div class="hero-data">
+                <h3 class="secondary-heading">2. Demand forecasting</h3>
+                <div class="hero-image">
+                    <img
+                    src="forecasting.jpg"
+                    class="image"
+                  />
+                  </div>
+                <p class="para">This technique involves predicting the amount of food that will be needed based on past consumption 
+                    patterns, seasonal variations, and other factors. Accurate demand forecasting can help reduce waste and ensure 
+                    that the right amount of food is available at the right time.</p>
+            </div><br><br><br>
+            <div class="hero-data">
+                <h3 class="secondary-heading">3. Food balancing</h3>
+                <div class="hero-image">
+                    <img
+                    src="food shortage.jpg"
+                    class="image"
+                  />
+                  </div>
+                <p class="para">Proper storage of food is essential for maintaining its quality and preventing spoilage. Techniques such
+                     as refrigeration, freezing, canning, and drying can help extend the shelf life of food and reduce waste.</p>
+            </div><br><br><br>
+            <div class="hero-data">
+                <h3 class="secondary-heading">4. Sustainable agriculture</h3>
+                <div class="hero-image">
+                    <img
+                    src="sustainable.jpg"
+                    class="image"
+                  />
+                  </div>
+                <p class="para">Sustainable agricultural practices, such as crop rotation, composting, and natural pest control, 
+                    can help increase yields and reduce the environmental impact of food production.</p>
+            </div><br><br><br><br>
+
+            </div>
+      </main>
+  </body>
+  </html>
